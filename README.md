@@ -56,14 +56,11 @@ glamorous stuff ages well.
 
 ---
 
-**Selected outcomes**
+**Writing**
 
-- 35% AWS cost reduction on a multi-region footprint, no capability loss
-- NIST CSF maturity 3.40 (industry avg 2.85), CMMI 3.95
-- Cyber vendor rating 93 (industry avg 72)
-- Board-level security governance for a PE-backed growth company
-- Security due diligence and post-close integration on a cross-border
-  acquisition
+- [The Boundary Layer Is the Actual AI Control](./boundary-layer.md) —
+  on NIST AI RMF, ISO 42001, CCPA ADM, and the one design decision
+  every other control sits on top of.
 
 ---
 
