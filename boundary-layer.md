@@ -1,13 +1,13 @@
 # The Boundary Layer Is the Actual AI Control
 
 *Building on [Nate B Jones](https://natesnewsletter.substack.com)'s
-work on AI world-model boundaries — this post pushes the framing into
+work on AI world-model boundaries, this post pushes the framing into
 the specific language the new regulatory regimes are going to use.*
 
 ---
 
-Every AI governance framework I've read — NIST AI RMF, ISO 42001, the
-EU AI Act, the newer CCPA ADM rules — describes roughly the same
+Every AI governance framework I've read (NIST AI RMF, ISO 42001, the
+EU AI Act, the newer CCPA ADM rules) describes roughly the same
 control set: inventory, risk classification, documentation, testing,
 monitoring, human oversight.
 
@@ -20,8 +20,8 @@ The actual control is one design decision, made once, per system:
 That's it. That's the boundary. And it has to exist as a design
 artifact, not a policy document.
 
-This matters specifically now because CCPA ADM, effective January
-2027, draws a legal line around "significant decisions" — outputs
+This matters specifically now because CCPA ADM, which applies from
+January 1, 2027, draws a legal line around "significant decisions": outputs
 that materially affect someone's access, opportunity, or price. A
 system that cannot distinguish, at design time, which of its outputs
 cross that line will fail the audit. Not because the audit is clever.
@@ -32,8 +32,8 @@ Because the system can't answer the question.
 ## Why every other control fails without it
 
 "Human oversight" without a boundary means a human watching a feed of
-outputs indistinguishable from one another — routine facts, novel
-judgments, high-confidence flags, low-confidence guesses — all
+outputs indistinguishable from one another (routine facts, novel
+judgments, high-confidence flags, low-confidence guesses), all
 presented with identical formatting and identical tone. The human
 rubber-stamps because rubber-stamping is the only scalable response.
 The oversight is theatrical.
@@ -46,7 +46,7 @@ denying a loan (very high-risk) cannot be usefully classified as one
 thing. The classification is at the wrong altitude.
 
 "Monitoring" without a boundary means logging everything and flagging
-nothing — or flagging everything and surfacing nothing. You cannot
+nothing, or flagging everything and surfacing nothing. You cannot
 monitor for drift in a category you haven't named.
 
 ## What the boundary actually looks like
@@ -100,7 +100,7 @@ That's the point of measuring it.
 incomplete if it stops at prompt injection and data exfil. The
 bigger threat is the unlabeled interpretive output routed to an
 action path. That's not a security bug. It's a design failure that
-your security program is inheriting — and it will be your job to
+your security program is inheriting, and it will be your job to
 explain after the incident, regardless of who designed it.
 
 Draw the boundary first. Everything else follows.
